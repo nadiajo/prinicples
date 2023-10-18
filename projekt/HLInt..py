@@ -132,7 +132,6 @@ def output_checker(line):
             first_value = value_extractor(values[0])
             second_value = value_extractor(values[1])
             if first_value is not None and second_value is not None:
-                print(first_value + second_value)
                 return True
             
             else:
@@ -144,7 +143,6 @@ def output_checker(line):
             second_value = value_extractor(values[1]) 
 
             if first_value is not None and second_value is not None:
-                print(first_value - second_value)
                 return True
             
             else:
